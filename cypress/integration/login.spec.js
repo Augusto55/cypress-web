@@ -5,7 +5,7 @@ import SauceLogin from '../pages/sauce_login.page'
 describe('Testes de login saucedemo', () => {
 
     describe('Teste de login positivo', () => {
-    before(() => {
+    beforeEach(() => {
         SauceLogin.acessarSauceDemo()
     })
 
@@ -15,7 +15,6 @@ describe('Testes de login saucedemo', () => {
 
     
     it('Deve validar os elementos da página após o login', () => {
-        cy.visit('/')
         SauceLogin.logar()
         SauceLogin.validarLogin()
         }) 
