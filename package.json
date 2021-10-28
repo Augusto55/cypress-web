@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.7.0"
+    "cypress": "^8.7.0",
+    "faker": "^5.5.3"
   },
   "dependencies": {
     "chai": "^4.3.4",
