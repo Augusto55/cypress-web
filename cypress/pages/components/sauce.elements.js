@@ -16,7 +16,7 @@ export const COMPRA = {
     CART_BTN : '.shopping_cart_link',
     CART_ITEM : '.cart_item',
     REMOVE_BTN : '[data-test="remove-sauce-labs-backpack"]',
-    CONTINUE_SHOPPING_BTN : '[data-test="continue-sauce-"]',
+    CONTINUE_SHOPPING_BTN : '#continue-shopping',
     CHECKOUT_BTN : '#checkout',
 
     CHECKOUT_DIV : '.checkout_info',
